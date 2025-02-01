@@ -1,0 +1,1058 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 100%;
+    padding: 0.1rem;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+    background: linear-gradient(115deg, #ffffff, #ffffff);
+}
+
+.header-container {
+    background: linear-gradient(115deg, #000000, #000000);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.7rem;
+    padding: 0.60rem;
+    position: sticky;
+}
+
+.header-bars a {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    font-size: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+@media (max-width:850px) {
+    .header-bars a {
+        display: none;
+    }
+
+}
+
+.header-logo {
+    height: 21px;
+    width: 21px;
+    padding: 0.01rem;
+}
+
+.head-search {
+    height: 19px;
+    width: 19px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.head-search:hover {
+    transform: scale(1.5);
+}
+
+.shop-bag {
+    height: 17px;
+    width: 17px;
+}
+
+.cashback-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.86);
+
+}
+
+.cash-rule {
+    color: rgb(252, 248, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 85%;
+    font-weight: 400;
+}
+
+.cashback {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+
+}
+
+@media (max-width:1080px) {
+    .cashback {
+        flex-direction: column;
+    }
+
+}
+
+.head-buy {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80%;
+    color: rgb(59, 59, 255);
+}
+
+.head-buy:hover {
+    color: rgba(17, 0, 255, 0.83);
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+
+.promax {
+    background-color: #000000;
+    width: 100%;
+    height: 693px;
+
+}
+
+.pro-heading {
+    color: #eeeeee;
+    padding-bottom: 140px;
+}
+
+.pro-desc {
+    color: #eeeeee;
+}
+
+.Buy-desc {
+
+    color: rgb(189, 189, 189);
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.promax-content {
+    background-image: url(./image/promax2.png);
+    background-clip: padding-box;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 693px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 100px;
+}
+
+.learn-buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.head-16 {
+    font-size: 3.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.desc-16 {
+    font-size: 1.35rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.learn-button {
+    font-size: 17px;
+    padding: 8px 16px;
+    background-color: #0071E3;
+    color: #eeeeee;
+    border: 1px solid #0071E3;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.learn-button:hover {
+    background-color: #0071e3de;
+}
+
+.Buy-button {
+    font-size: 17px;
+    padding: 8px 16px;
+    background-color: rgba(0, 0, 0, 0.748);
+    color: #0071E3;
+    border: 1px solid #0071E3;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    overflow: hidden;
+
+}
+
+.Buy-button:hover {
+    background-color: #0071E3;
+    color: #eeeeee;
+
+}
+
+.macbook {
+    width: 100%;
+    height: 692px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.mac-content {
+    width: 100%;
+    height: 693px;
+    background: linear-gradient(115deg, #fafafa, #faf7f7, #f0f0f0);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mac-upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1.75rem;
+    padding: 32px;
+}
+
+.mac-text-container {
+    gap: 1rem;
+}
+
+.mac-head {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: #040c0e;
+}
+
+.mac-desc {
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #040c0e;
+    font-weight: 7%;
+
+}
+
+.mac-BS {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.mac-learn-button {
+    font-size: 17px;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    background-color: #0071E3;
+    color: #eeeeee;
+    border: 1px solid #0071E3;
+    text-decoration: none;
+}
+
+.mac-learn-button:hover {
+    background-color: #0071e3de;
+}
+
+.mac-buy-button {
+    font-size: 17px;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: #0071E3;
+    border: 1px solid #0071E3;
+    text-decoration: none;
+}
+
+.mac-buy-button:hover {
+    background-color: #0071E3;
+    color: #eeeeee;
+}
+
+.mac-img {
+    padding: 32px;
+}
+
+.mac-lower {
+    padding-bottom: 25px;
+}
+
+.pad {
+    width: 100%;
+    height: 693px;
+    padding-top: 12px;
+    background: linear-gradient(115deg, #8be6ff, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pad-content {
+    width: 100%;
+    height: 693px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.pad-upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.pad-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pad-heading {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    padding-top: 35px;
+}
+
+.pad-ip {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-top: 15px;
+}
+
+.pad-air {
+    font-size: 37px;
+    font-family: cursive;
+    color: #19cdff;
+}
+
+.pad-desc {
+    font-size: medium;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pad-BS {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pad-learn-button {
+    font-size: 17px;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    background-color: #0071E3;
+    color: #eeeeee;
+    border: 1px solid #0071E3;
+    text-decoration: none;
+}
+
+.pad-learn-button:hover {
+    background-color: #0071e3de;
+}
+
+.pad-buy-button {
+    font-size: 17px;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: #0071E3;
+    border: 1px solid #0071E3;
+    text-decoration: none;
+
+}
+
+.pad-buy-button:hover {
+    background-color: #0071E3;
+    color: #eeeeee;
+}
+
+.pad-lower {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.pad-ai-head {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.pad-ai-h3 {
+    padding-bottom: 1.3rem;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.15rem;
+}
+
+.Grid-container-testimonial {
+    padding: 12px;
+    background: linear-gradient(115deg, #ffffff, #ffffff);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.7rem;
+
+
+
+}
+
+@media (max-width:830px) {
+    .Grid-container-testimonial {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.store-testi-box {
+    height: 693px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #f5f5f7;
+}
+
+.store-testi-head {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    font-size: 2.3rem;
+    color: #040c0e;
+}
+
+.store-testi-desc {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #040c0ecb;
+}
+
+.store-t-button {
+    font-size: 13px;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    background-color: #0071E3;
+    color: #eeeeee;
+    border: 1px solid #0071E3;
+    text-decoration: none;
+}
+
+.store-t-button:hover {
+    background-color: #0071e3de;
+}
+
+.store-testi-button {
+    padding-top: 25px;
+}
+
+.store-mid-testi {
+    padding-top: 25px;
+}
+
+.store-t-img {
+
+    height: 80%;
+}
+
+.store-l-desc {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #454848;
+}
+
+.store-top-testi {
+    padding-top: 30px;
+}
+
+.store-low-desc {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #454848;
+}
+
+.store-lower-testi {
+    padding-bottom: 50px;
+}
+
+.store-testi-head {
+    padding: 5px;
+}
+
+.girls-testi-box {
+    width: 100%;
+    height: 693px;
+    background: linear-gradient(115deg, #f878ffb5, #ffda9ec2, #ffffff);
+    background-image: url(./image/girls-testi-removebg.jpg);
+    background-clip: padding-box;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    justify-content: space-between;
+}
+
+.gh-1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.gh-2 {
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #000000;
+    padding-bottom: 15px;
+}
+
+.gh-4 {
+    font-size: 2.5rem;
+    font-family: cursive;
+    color: #000000;
+}
+
+.girls-top-box {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+
+}
+
+.girls-learn-button {
+    font-size: 17px;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    background-color: #0071E3;
+    color: #eeeeee;
+    border: 1.5px solid #0071E3;
+    text-decoration: none;
+}
+
+.girls-learn-button:hover {
+    background-color: #0071e3de;
+}
+
+.girls-buy-button {
+    font-size: 17px;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: #0071E3;
+    border: 1.5px solid #0071E3;
+    text-decoration: none;
+}
+
+.girls-buy-button:hover {
+    background-color: #0071E3;
+    color: #eeeeee;
+}
+
+.girls-testi-button {
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.girls-head1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.watch-testi-box {
+    width: 100%;
+    height: 693px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+.watch-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    gap: 0.3rem;
+}
+
+.watch-head {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.w-a-l {
+    height: 40px;
+    width: 40px;
+
+}
+
+.w-apple-logo {
+    padding-top: 1.7px;
+}
+
+.w-h {
+    font-size: 2.5rem;
+    color: #f0f0f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.watch-desc1 {
+    padding-left: 25px;
+}
+
+.w-d-1 {
+    color: #f0f0f0;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgb(255, 140, 0);
+}
+
+.watch-desc2 {
+    padding-left: 32px;
+}
+
+.w-d-2 {
+    color: #f0f0f0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.watch-button {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.w-l-button {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    background-color: #0071E3;
+    color: #eeeeee;
+    border: 1.5px solid #0071E3;
+    text-decoration: none;
+
+}
+
+.w-l-button:hover {
+    background-color: #0071e3de;
+
+}
+
+.w-b-button {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: #0071E3;
+    border: 1px solid #0071E3;
+    text-decoration: none;
+}
+
+.w-b-button:hover {
+    background-color: #0071E3;
+    color: #eeeeee;
+}
+
+.watch-bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-b-pic {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.mac-testi-box {
+    height: 693px;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.mac-testi-head {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    font-size: 2.3rem;
+    color: #f0f0f0;
+}
+
+.mac-testi-desc {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #f0f0f0;
+}
+
+.mac-l-button {
+    font-size: 15px;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    background-color: #0071E3;
+    color: #eeeeee;
+    border: 1px solid #0071E3;
+    text-decoration: none;
+}
+
+.mac-l-button:hover {
+    background-color: #0071e3de;
+}
+
+.mac-testi-button {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mac-mid-testi {
+    padding-top: 25px;
+}
+
+.mac-t-img {
+
+    height: 80%;
+}
+
+.mac-l-desc {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #454848;
+}
+
+.mac-top-testi {
+    padding-top: 30px;
+}
+
+.mac-lower-testi {
+    padding-bottom: 40px;
+}
+
+.mac-testi-head {
+    padding: 5px;
+}
+
+.mac-l-tesi {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #7a7c7c;
+}
+
+.mac-b-button {
+    font-size: 15px;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: #0071E3;
+    border: 1.5px solid #0071E3;
+    text-decoration: none;
+
+}
+
+.mac-b-button:hover {
+    background-color: #0071E3;
+    color: #eeeeee;
+}
+
+.tvshow-inner
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x:scroll;
+    gap: 0.7rem;
+    padding-left: 13px;
+    padding-bottom: 13px;
+}
+@media (max-width:830px) {
+    .tvshow-inner
+{
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y:scroll;
+    overflow-x:scroll;
+    gap: 0.7rem;
+    padding-left: 13px;
+    padding-bottom: 13px;
+}
+    
+}
+.tvshow-item
+{
+   width: 100%;
+}
+.d-block 
+{
+    width: 200vh;
+    height: 600px;
+
+}
+
+
+.footer-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+  
+}
+.footer-explanation
+{
+    border-bottom: 1px solid rgba(121, 116, 116, 0.768);
+}
+.footer-in-cont
+{
+    width: 980px;
+    /* height: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+.foot-ex
+{
+    text-align:start;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.56);
+    font-weight:400;
+    font-size: 0.7rem;
+}
+
+@media (max-width:830px)
+{
+.foot-ex
+{
+     display: none;
+}
+
+    
+}
+.foot-about
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 190px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+     
+}
+@media (max-width:830px) 
+{
+    .foot-about
+{
+    column-gap: 50px;
+}
+    
+    
+}
+
+.shopandlearn
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 0.6rem;
+    
+}
+
+.Entertainment
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 0.6rem;
+}
+
+.AppleStore
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 0.6rem;
+}
+
+.AboutApple
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 0.6rem;
+}
+.fabout
+{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.56);
+    font-family  :Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;  
+}
+.fabout:hover
+{
+    text-decoration: underline;
+}
+.ft-head
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    color: #454848;
+    font-weight: 550;
+}
+
+.foot-more-way
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    gap: 0.35rem;
+    border-bottom: 1px solid rgba(121, 116, 116, 0.768);
+}
+
+.f-m-h
+{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.56);
+    font-family  :Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small; 
+    font-weight: 400; 
+}
+.f-m-h-a-a
+{
+    font-family  :Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small; 
+    font-weight: 400; 
+}
+
+.copy-footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8.5rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media (max-width:830px) 
+{
+
+.copy-footer
+{
+    gap: 5rem;
+}
+    
+}
+.copy-about-sec
+{
+    display: flex;
+    flex-direction: row;
+    gap: 0.9rem;
+    
+
+}
+.c-c-c
+{
+    color: rgba(0, 0, 0, 0.56);
+    font-family  :Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px; 
+    font-weight: 400;   
+}
+.c-c-a
+{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.56);
+    font-family  :Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px; 
+    font-weight: 400;   
+}
+
+
+
+
+ 
